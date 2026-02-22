@@ -1,4 +1,84 @@
 {
+  "repository_info": {
+    "project_name": "AgriLLaVA Knowledge Base",
+    "version": "1.0",
+    "description": "Curated agricultural PDFs for RAG grounding with external authoritative agricultural web references.",
+    "docs_folder": "docs"
+  },
+
+  "documents": [
+    {
+      "file_name": "ICAR_Rabi_Agro_Advisory_for_Farmers.pdf",
+      "title": "ICAR Rabi Agro Advisory for Farmers",
+      "organization": "Indian Council of Agricultural Research",
+      "year": 2024,
+      "crop_focus": ["Wheat", "Mustard", "Chickpea", "Barley"],
+      "contains_dosage_information": true,
+      "contains_pesticide_guidelines": true,
+      "source_urls": ["https://icar.org.in/"]
+    },
+    {
+      "file_name": "ICAR_Kharif_Agro_Advisories_for_Farmers.pdf",
+      "title": "ICAR Kharif Agro Advisories for Farmers",
+      "organization": "Indian Council of Agricultural Research",
+      "year": 2024,
+      "crop_focus": ["Rice", "Maize", "Cotton", "Soybean"],
+      "contains_dosage_information": true,
+      "contains_pesticide_guidelines": true,
+      "source_urls": ["https://icar.org.in/"]
+    },
+    {
+      "file_name": "Farmers_Handbook_on_Basic_Agriculture.pdf",
+      "title": "Farmer’s Handbook on Basic Agriculture",
+      "organization": "Government of India / ICAR",
+      "year": 2022,
+      "crop_focus": ["Rice", "Wheat", "Maize", "Vegetables"],
+      "contains_dosage_information": true,
+      "contains_pesticide_guidelines": true,
+      "source_urls": ["https://agricoop.nic.in/"]
+    },
+    {
+      "file_name": "Agriculture_Production_Guide_TNAU.pdf",
+      "title": "Agriculture Production Guide",
+      "organization": "Tamil Nadu Agricultural University",
+      "year": 2021,
+      "crop_focus": ["Rice", "Sugarcane", "Maize", "Cotton"],
+      "contains_dosage_information": true,
+      "contains_pesticide_guidelines": true,
+      "source_urls": ["https://tnau.ac.in/"]
+    },
+    {
+      "file_name": "Farm_Management_Extension_Guide_FAO.pdf",
+      "title": "Farm Management Extension Guide",
+      "organization": "Food and Agriculture Organization",
+      "year": 2020,
+      "crop_focus": ["General"],
+      "contains_dosage_information": false,
+      "contains_pesticide_guidelines": false,
+      "source_urls": ["https://www.fao.org/home/en"]
+    },
+    {
+      "file_name": "Climate_Smart_Agriculture_Interventions.pdf",
+      "title": "Climate Smart Agriculture Interventions",
+      "organization": "ICAR / Government of India",
+      "year": 2023,
+      "crop_focus": ["General"],
+      "contains_dosage_information": false,
+      "contains_pesticide_guidelines": false,
+      "source_urls": ["https://icar.org.in/"]
+    },
+    {
+      "file_name": "rice.pdf",
+      "title": "Rice Crop Production and Disease Guide",
+      "organization": "ICAR",
+      "year": 2023,
+      "crop_focus": ["Rice"],
+      "contains_dosage_information": true,
+      "contains_pesticide_guidelines": true,
+      "source_urls": ["https://icar.org.in/"]
+    }
+  ],
+
   "external_sources": [
 
     {
