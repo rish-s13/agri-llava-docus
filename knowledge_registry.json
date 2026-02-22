@@ -1,155 +1,114 @@
 {
-  "repository_info": {
-    "project_name": "AgriLLaVA Knowledge Base",
-    "maintainer": "Your Name",
-    "version": "1.0",
-    "last_updated": "2026-02-22",
-    "description": "Curated agricultural manuals and advisories used for RAG-based multimodal agronomic assistance."
-  },
-
-  "documents": [
+  "external_sources": [
 
     {
-      "file_name": "ICAR_Rabi_Agro_Advisory_for_Farmers.pdf",
-      "title": "ICAR Rabi Agro-Advisory for Farmers",
-      "document_type": "Seasonal Advisory",
-      "organization": "Indian Council of Agricultural Research (ICAR)",
-      "department": "ICAR Extension Services",
-      "country_scope": "India",
-      "season": "Rabi",
-      "year": 2024,
-      "crop_focus": ["Wheat", "Mustard", "Chickpea", "Barley"],
-      "topic_tags": ["Crop Management", "Fertilizer", "Irrigation", "Pest Control"],
-      "contains_dosage_information": true,
-      "contains_pesticide_guidelines": true,
-      "contains_climate_guidelines": true,
-      "source_urls": [
-        "https://icar.org.in/",
-        "https://krishi.icar.gov.in/"
-      ],
-      "official_citation": "ICAR. (2024). Rabi Agro-Advisory for Farmers."
+      "name": "Indian Council of Agricultural Research",
+      "abbreviation": "ICAR",
+      "type": "Government Research Organization",
+      "country": "India",
+      "website": "https://icar.org.in/",
+      "topics": ["Crop Diseases", "Pest Management", "Agricultural Research"],
+      "authority_level": "National Government",
+      "credibility_rank": "High"
     },
 
     {
-      "file_name": "ICAR_Kharif_Agro_Advisories_for_Farmers.pdf",
-      "title": "ICAR Kharif Agro-Advisories for Farmers",
-      "document_type": "Seasonal Advisory",
-      "organization": "Indian Council of Agricultural Research (ICAR)",
-      "country_scope": "India",
-      "season": "Kharif",
-      "year": 2024,
-      "crop_focus": ["Rice", "Maize", "Cotton", "Soybean"],
-      "topic_tags": ["Monsoon Crops", "Disease Prevention", "Water Management"],
-      "contains_dosage_information": true,
-      "contains_pesticide_guidelines": true,
-      "source_urls": [
-        "https://icar.org.in/",
-        "https://agricoop.nic.in/"
-      ],
-      "official_citation": "ICAR. (2024). Kharif Agro-Advisory for Farmers."
+      "name": "Ministry of Agriculture & Farmers Welfare",
+      "abbreviation": "MoAFW",
+      "type": "Government Ministry",
+      "country": "India",
+      "website": "https://agricoop.nic.in/",
+      "topics": ["Policy", "Pesticide Regulation", "Schemes"],
+      "authority_level": "National Government",
+      "credibility_rank": "High"
     },
 
     {
-      "file_name": "Indian_Farming_January_2023.pdf",
-      "title": "Indian Farming – January 2023 Issue",
-      "document_type": "Agricultural Journal",
-      "organization": "ICAR",
-      "year": 2023,
-      "country_scope": "India",
-      "topic_tags": ["Extension", "Research Updates", "Technology Adoption"],
-      "contains_dosage_information": false,
-      "contains_pesticide_guidelines": false,
-      "source_urls": [
-        "https://icar.org.in/content/indian-farming"
-      ],
-      "official_citation": "ICAR. (2023). Indian Farming, January Issue."
+      "name": "Tamil Nadu Agricultural University",
+      "abbreviation": "TNAU",
+      "type": "Agricultural University",
+      "country": "India",
+      "website": "https://tnau.ac.in/",
+      "topics": ["Crop Production", "Disease Diagnosis", "Soil Management"],
+      "authority_level": "University",
+      "credibility_rank": "High"
     },
 
     {
-      "file_name": "Farmers_Handbook_on_Basic_Agriculture.pdf",
-      "title": "Farmer’s Handbook on Basic Agriculture",
-      "document_type": "Comprehensive Manual",
-      "organization": "Government of India / ICAR",
-      "country_scope": "India",
-      "year": 2022,
-      "crop_focus": ["Rice", "Wheat", "Maize", "Vegetables"],
-      "topic_tags": ["Soil Health", "Crop Rotation", "Fertilizer", "Irrigation"],
-      "contains_dosage_information": true,
-      "contains_pesticide_guidelines": true,
-      "source_urls": [
-        "https://icar.org.in/",
-        "https://agricoop.nic.in/"
-      ],
-      "official_citation": "Government of India. (2022). Farmer’s Handbook on Basic Agriculture."
+      "name": "Food and Agriculture Organization",
+      "abbreviation": "FAO",
+      "type": "United Nations Agency",
+      "country": "Global",
+      "website": "https://www.fao.org/home/en",
+      "topics": ["Global Crop Guidelines", "Integrated Pest Management", "Sustainability"],
+      "authority_level": "International",
+      "credibility_rank": "Very High"
     },
 
     {
-      "file_name": "Agriculture_Production_Guide_TNAU.pdf",
-      "title": "Agriculture Production Guide",
-      "document_type": "Crop Production Manual",
-      "organization": "Tamil Nadu Agricultural University (TNAU)",
-      "country_scope": "India",
-      "state_scope": "Tamil Nadu",
-      "year": 2021,
-      "crop_focus": ["Rice", "Sugarcane", "Maize", "Cotton"],
-      "topic_tags": ["State Guidelines", "Production Practices", "Fertilization"],
-      "contains_dosage_information": true,
-      "contains_pesticide_guidelines": true,
-      "source_urls": [
-        "https://tnau.ac.in/"
-      ],
-      "official_citation": "TNAU. (2021). Agriculture Production Guide."
+      "name": "Plantwise Knowledge Bank",
+      "abbreviation": "CABI Plantwise",
+      "type": "Agricultural Knowledge Platform",
+      "country": "Global",
+      "website": "https://plantwiseplusknowledgebank.org/",
+      "topics": ["Plant Disease Diagnosis", "Pest Identification"],
+      "authority_level": "International Research",
+      "credibility_rank": "High"
     },
 
     {
-      "file_name": "Farm_Management_Extension_Guide_FAO.pdf",
-      "title": "Farm Management Extension Guide",
-      "document_type": "International Extension Manual",
-      "organization": "Food and Agriculture Organization (FAO)",
-      "country_scope": "Global",
-      "year": 2020,
-      "topic_tags": ["Farm Economics", "Sustainability", "Extension Systems"],
-      "contains_dosage_information": false,
-      "contains_pesticide_guidelines": false,
-      "source_urls": [
-        "https://www.fao.org/home/en",
-        "https://www.fao.org/publications/en/"
-      ],
-      "official_citation": "FAO. (2020). Farm Management Extension Guide."
+      "name": "International Rice Research Institute",
+      "abbreviation": "IRRI",
+      "type": "International Research Institute",
+      "country": "Global",
+      "website": "https://www.irri.org/",
+      "topics": ["Rice Diseases", "Rice Pest Control", "Rice Varieties"],
+      "authority_level": "International",
+      "credibility_rank": "Very High"
     },
 
     {
-      "file_name": "Climate_Smart_Agriculture_Interventions.pdf",
-      "title": "Climate Smart Agriculture Interventions",
-      "document_type": "Climate Adaptation Guide",
-      "organization": "ICAR / Government of India",
-      "country_scope": "India",
-      "year": 2023,
-      "topic_tags": ["Climate Change", "Resilience", "Sustainable Agriculture"],
-      "contains_climate_guidelines": true,
-      "contains_dosage_information": false,
-      "source_urls": [
-        "https://icar.org.in/",
-        "https://ccafs.cgiar.org/"
-      ],
-      "official_citation": "ICAR. (2023). Climate Smart Agriculture Interventions."
+      "name": "Central Insecticides Board & Registration Committee",
+      "abbreviation": "CIBRC",
+      "type": "Regulatory Authority",
+      "country": "India",
+      "website": "https://cibrc.nic.in/",
+      "topics": ["Approved Pesticides", "Chemical Dosage Standards"],
+      "authority_level": "Regulatory Body",
+      "credibility_rank": "Very High"
     },
 
     {
-      "file_name": "rice.pdf",
-      "title": "Rice Crop Production & Disease Guide",
-      "document_type": "Crop-Specific Manual",
-      "organization": "ICAR / State Agriculture Department",
-      "country_scope": "India",
-      "crop_focus": ["Rice"],
-      "topic_tags": ["Rice Blast", "Bacterial Blight", "Fertilizer", "Pesticide"],
-      "contains_dosage_information": true,
-      "contains_pesticide_guidelines": true,
-      "source_urls": [
-        "https://icar.org.in/",
-        "https://agricoop.nic.in/"
-      ],
-      "official_citation": "ICAR. Rice Crop Production Guide."
+      "name": "Krishi Vigyan Kendra Portal",
+      "abbreviation": "KVK",
+      "type": "Extension Network",
+      "country": "India",
+      "website": "https://kvk.icar.gov.in/",
+      "topics": ["Farmer Advisory", "Field Diagnosis"],
+      "authority_level": "Government Extension",
+      "credibility_rank": "High"
+    },
+
+    {
+      "name": "CGIAR Research Platform",
+      "abbreviation": "CGIAR",
+      "type": "International Agricultural Consortium",
+      "country": "Global",
+      "website": "https://www.cgiar.org/",
+      "topics": ["Climate Smart Agriculture", "Crop Innovation"],
+      "authority_level": "International",
+      "credibility_rank": "Very High"
+    },
+
+    {
+      "name": "Directorate of Plant Protection, Quarantine & Storage",
+      "abbreviation": "DPPQS",
+      "type": "Government Department",
+      "country": "India",
+      "website": "https://ppqs.gov.in/",
+      "topics": ["Plant Protection", "Quarantine Regulations"],
+      "authority_level": "National Government",
+      "credibility_rank": "High"
     }
 
   ]
